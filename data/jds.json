@@ -1,0 +1,27 @@
+[
+  {
+    "id": "platform",
+    "title": "Senior Data Engineer, Platform",
+    "text": "Own batch and streaming pipelines on Spark and Kafka. Run workloads on Kubernetes and manage infrastructure with Terraform. Strong SQL and Python. Experience with Snowflake and dbt. Show measurable cost savings from past work."
+  },
+  {
+    "id": "analytics",
+    "title": "Analytics Engineer",
+    "text": "Build trusted data models with dbt and SQL for finance and product teams. Define metrics, test data quality and publish dashboards in Looker. Python is a plus. Tell us how much reporting time you saved."
+  },
+  {
+    "id": "mlops",
+    "title": "Machine Learning Data Engineer",
+    "text": "Build feature pipelines for ML models with PySpark and Airflow. Experience with MLflow, TensorFlow and Kubernetes. Monitor data drift and model quality in production. Quantify the revenue impact of your models."
+  },
+  {
+    "id": "fde",
+    "title": "Forward Deployed Engineer",
+    "text": "Work directly with customers to integrate data sources and ship working solutions in days. REST APIs, Python, SQL and cloud deployment on AWS. Experience with LLMs and customer-facing delivery. Show how many customers you onboarded."
+  },
+  {
+    "id": "analyst",
+    "title": "Senior Data Analyst",
+    "text": "Turn messy data into decisions for operations leaders. Advanced SQL and Python, Tableau or Power BI dashboards, A/B testing and statistics. Give examples of the business impact in rupees."
+  }
+]

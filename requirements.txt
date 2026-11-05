@@ -1,0 +1,9 @@
+langgraph>=0.6
+langchain>=0.3
+langchain-google-genai>=2
+langchain-huggingface>=0.3
+sentence-transformers>=3
+crewai>=0.150
+python-dotenv
+pytest
+accelerate

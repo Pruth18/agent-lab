@@ -1,0 +1,392 @@
+{
+ "model": "gemini-3.1-flash-lite-preview",
+ "rows": [
+  {
+   "approach": "raw",
+   "jd": "platform",
+   "seconds": 7.5,
+   "llm_calls": 1,
+   "tokens": 344,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse using Python and SQL.\n- Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.\n- Streamed sample order events through Kafka into a Python consumer running in Docker.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "raw",
+   "jd": "analytics",
+   "seconds": 6.0,
+   "llm_calls": 1,
+   "tokens": 329,
+   "draft": "- Modelled sales and inventory marts in SQL used by 3 analytics teams for weekly reporting.\n- Automated data quality checks in Python across 40 tables, catching schema drift before reports refreshed.\n- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "raw",
+   "jd": "mlops",
+   "seconds": 6.3,
+   "llm_calls": 1,
+   "tokens": 339,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.\n- Deployed Airflow DAGs for 12 scheduled jobs with failure alerts to ensure reliable data delivery.\n- Utilized Python, SQL, and PySpark to develop data infrastructure and mentor 2 junior engineers on code review.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "raw",
+   "jd": "fde",
+   "seconds": 6.2,
+   "llm_calls": 1,
+   "tokens": 343,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse using Python and SQL.\n- Deployed Airflow DAGs for 12 scheduled jobs to manage data ingestion via Azure Data Factory and Azure Blob Storage.\n- Modelled sales and inventory marts in SQL used by 3 analytics teams to support weekly reporting and data integration.",
+   "first_ok": false,
+   "final_ok": false,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": [
+    "skills the candidate cannot evidence: System Integration"
+   ]
+  },
+  {
+   "approach": "raw",
+   "jd": "analyst",
+   "seconds": 6.2,
+   "llm_calls": 1,
+   "tokens": 334,
+   "draft": "- Modelled sales and inventory marts in SQL used by 3 analytics teams to drive weekly reporting.\n- Automated data quality checks in Python across 40 tables, ensuring reliable data for decision-making.\n- Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "loop",
+   "jd": "platform",
+   "seconds": 6.1,
+   "llm_calls": 1,
+   "tokens": 340,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.\n- Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.\n- Streamed sample order events through Kafka into a Python consumer running in Docker.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "loop",
+   "jd": "analytics",
+   "seconds": 6.1,
+   "llm_calls": 1,
+   "tokens": 329,
+   "draft": "- Modelled sales and inventory marts in SQL used by 3 analytics teams for weekly reporting.\n- Automated data quality checks in Python across 40 tables, catching schema drift before reports refreshed.\n- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "loop",
+   "jd": "mlops",
+   "seconds": 6.1,
+   "llm_calls": 1,
+   "tokens": 341,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.\n- Deployed Airflow DAGs for 12 scheduled jobs with failure alerts to ensure reliable data delivery.\n- Utilized Python, SQL, and PySpark to implement a 3-stage lakehouse with schema evolution and time travel.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "loop",
+   "jd": "fde",
+   "seconds": 11.2,
+   "llm_calls": 2,
+   "tokens": 772,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse using Python and SQL.\n- Deployed Airflow DAGs for 12 scheduled jobs with failure alerts to ensure reliable data processing.\n- Modelled sales and inventory marts in SQL used by 3 analytics teams for weekly reporting.",
+   "first_ok": false,
+   "final_ok": true,
+   "attempts": 2,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "loop",
+   "jd": "analyst",
+   "seconds": 6.5,
+   "llm_calls": 1,
+   "tokens": 334,
+   "draft": "- Modelled sales and inventory marts in SQL used by 3 analytics teams to drive weekly reporting.\n- Automated data quality checks in Python across 40 tables to ensure reliable data for decision-making.\n- Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "graph",
+   "jd": "platform",
+   "seconds": 21.3,
+   "llm_calls": 4,
+   "tokens": 2109,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems.\n- Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.\n- Streamed order events through Kafka into a Python consumer.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 3,
+   "problems": [],
+   "approved": true
+  },
+  {
+   "approach": "graph",
+   "jd": "analytics",
+   "seconds": 26.5,
+   "llm_calls": 5,
+   "tokens": 2909,
+   "draft": "- Created SQL tables for sales and inventory used by 3 analytics teams for weekly reporting.\n- Used Python to automate data quality checks across 40 tables to ensure accuracy before reporting.\n- Rewrote SQL joins to reduce nightly batch runtime by 30%.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 4,
+   "problems": [],
+   "approved": true
+  },
+  {
+   "approach": "graph",
+   "jd": "mlops",
+   "seconds": 16.1,
+   "llm_calls": 3,
+   "tokens": 1453,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.\n- Deployed Airflow DAGs for 12 scheduled jobs with failure alerts sent to the on-call channel.\n- Utilized Python, SQL, and PySpark to manage data pipelines for 4 years.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 2,
+   "problems": [],
+   "approved": true
+  },
+  {
+   "approach": "graph",
+   "jd": "fde",
+   "seconds": 21.3,
+   "llm_calls": 4,
+   "tokens": 2217,
+   "draft": "- Integrated data sources by developing Python scripts to automate quality checks across 40 tables, ensuring reliable data delivery.\n- Deployed 12 scheduled data pipelines using Python and SQL to maintain consistent reporting.\n- Leveraged Python and Docker to build and deploy a real-time event streaming solution, demonstrating proficiency in end-to-end service delivery.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 3,
+   "problems": [],
+   "approved": true
+  },
+  {
+   "approach": "graph",
+   "jd": "analyst",
+   "seconds": 16.2,
+   "llm_calls": 3,
+   "tokens": 1404,
+   "draft": "- Developed complex SQL queries to model sales and inventory data marts, enabling weekly reporting for 3 analytics teams.\n- Automated data quality checks using Python across 40 tables to ensure accuracy in operational reporting.\n- Built automated data pipelines that improved reporting reliability, supporting operational decision-making for retail analytics.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 2,
+   "problems": [],
+   "approved": true
+  },
+  {
+   "approach": "crew",
+   "jd": "platform",
+   "seconds": 14.6,
+   "llm_calls": 15,
+   "tokens": 7416,
+   "draft": "Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins to optimize resource consumption.\nBuilt PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.\nStreamed sample order events through Kafka into a Python consumer running in Docker.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": null,
+   "problems": []
+  },
+  {
+   "approach": "crew",
+   "jd": "analytics",
+   "seconds": 13.7,
+   "llm_calls": 24,
+   "tokens": 13545,
+   "draft": "Developed SQL queries for sales and inventory that served as the primary reporting source for 3 analytics teams.\nReduced nightly processing time by 30% through SQL join optimization, directly increasing operational efficiency for reporting cycles.\nAutomated data quality checks across 40 tables to ensure integrity and prevent schema drift, maintaining a trusted data environment.",
+   "first_ok": false,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": null,
+   "problems": []
+  },
+  {
+   "approach": "crew",
+   "jd": "mlops",
+   "seconds": 10.2,
+   "llm_calls": 15,
+   "tokens": 7527,
+   "draft": "Orchestrated end-to-end data pipelines using PySpark to process 2 million daily orders and deployed Airflow DAGs for 12 scheduled production jobs.\nManaged containerized workloads by deploying Python applications within Docker environments to support scalable data processing.\nImplemented automated failure alerts for scheduled workflows to ensure system reliability and continuous monitoring of production data streams.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": null,
+   "problems": []
+  },
+  {
+   "approach": "crew",
+   "jd": "fde",
+   "seconds": 9.3,
+   "llm_calls": 21,
+   "tokens": 11481,
+   "draft": "Delivered functional data pipelines using Python, SQL, and PySpark, reducing project deployment timelines to meet tight business deadlines.\nManaged end-to-end technical workflows by translating complex requirements into automated processes, successfully onboarding 12 scheduled jobs into production.\nEngineered scalable data solutions by integrating Azure Data Factory and Blob Storage, ensuring seamless connectivity and high-velocity data availability.",
+   "first_ok": false,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": null,
+   "problems": []
+  },
+  {
+   "approach": "crew",
+   "jd": "analyst",
+   "seconds": 7.0,
+   "llm_calls": 18,
+   "tokens": 9450,
+   "draft": "- Optimized SQL queries and repartitioned large tables to reduce nightly batch runtime by 30%, directly improving operational data availability.\n- Utilized Python and SQL to build and maintain a 3-stage lakehouse architecture, ensuring scalable data processing and cleaning for large-scale retail datasets.\n- Leveraged advanced SQL and Python scripting to streamline data pipelines, enabling faster access to data for leadership decision-making.",
+   "first_ok": false,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": null,
+   "problems": []
+  },
+  {
+   "approach": "local",
+   "jd": "platform",
+   "seconds": 57.3,
+   "llm_calls": 1,
+   "tokens": 0,
+   "draft": "- Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.\n- Streamed sample order events through Kafka into a Python consumer running in Docker as a personal project.\n- Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.\n- Implemented a 3-stage lakehouse on sample retail data with schema evolution and time travel.\n- Deployed Airflow DAGs for 12 scheduled jobs with failure alerts sent to the on-call channel.",
+   "first_ok": true,
+   "final_ok": true,
+   "attempts": 1,
+   "tool_calls": 0,
+   "problems": []
+  },
+  {
+   "approach": "local",
+   "jd": "analytics",
+   "seconds": 3.3,
+   "llm_calls": 3,
+   "tokens": 0,
+   "draft": "- Data Engineer - 4 years\n- SQL - 4 years\n- PySpark - 1 year\n- Python - 1 year",
+   "first_ok": false,
+   "final_ok": false,
+   "attempts": 3,
+   "tool_calls": 0,
+   "problems": [
+    "numbers not in the candidate facts (invented?): 1"
+   ]
+  },
+  {
+   "approach": "local",
+   "jd": "mlops",
+   "seconds": 4.1,
+   "llm_calls": 3,
+   "tokens": 0,
+   "draft": "- **Experience:** 4 years\n- **Skills:** Python, SQL, PySpark, Airflow, Kafka, MLflow, TensorFlow, Git, Monitoring, Revenue Impact Analysis",
+   "first_ok": false,
+   "final_ok": false,
+   "attempts": 3,
+   "tool_calls": 0,
+   "problems": [
+    "skills the candidate cannot evidence: TensorFlow, MLOps"
+   ]
+  },
+  {
+   "approach": "local",
+   "jd": "fde",
+   "seconds": 21.5,
+   "llm_calls": 3,
+   "tokens": 0,
+   "draft": "- **Experience:** 4 years\n- **Skills:** Python, SQL, PySpark, Airflow, Git, Azure, AWS, LLMs, Customer-facing delivery, Sales and Inventory mart integration, SQL, Delta Lake warehouse, On-call channel, Code review, PySpark pipelines, Delta Lake warehouse, Azure Blob Storage, Azure Data Factory, SQL, BI tools, Customer-facing delivery, Sales and Inventory mart integration, SQL, Delta Lake warehouse, On-call channel, Code review, PySpark pipelines, Delta Lake warehouse, Azure Blob Storage, Azure Data Factory, SQL, BI tools, Customer-facing delivery, Sales and Inventory mart integration, SQL, Delta Lake warehouse, On-call channel, Code review, PySpark pipelines, Delta Lake warehouse, Azure Blob Storage, Azure Data Factory, SQL, BI tools, Customer-facing delivery, Sales and Inventory mart integration, SQL, Delta Lake warehouse, On-call channel, Code review, PySpark pipelines, Delta Lake warehouse, Azure Blob Storage, Azure Data Factory, SQL, BI tools, Customer-facing delivery, Sales and Inventory mart integration, SQL,",
+   "first_ok": false,
+   "final_ok": false,
+   "attempts": 3,
+   "tool_calls": 0,
+   "problems": [
+    "skills the candidate cannot evidence: AWS, GenAI / LLMs, Customer-Facing Delivery, System Integration"
+   ]
+  },
+  {
+   "approach": "local",
+   "jd": "analyst",
+   "seconds": 3.8,
+   "llm_calls": 3,
+   "tokens": 0,
+   "draft": "- **Experience:** 4 years\n- **Skills:** Python, SQL, PySpark, Tableau, Power BI",
+   "first_ok": false,
+   "final_ok": false,
+   "attempts": 3,
+   "tool_calls": 0,
+   "problems": [
+    "skills the candidate cannot evidence: Tableau, Power BI"
+   ]
+  }
+ ],
+ "summary": {
+  "raw": {
+   "runs": 5,
+   "errors": 0,
+   "first_draft_clean": 4,
+   "final_clean": 4,
+   "avg_llm_calls": 1.0,
+   "avg_tokens": 338,
+   "avg_seconds": 6.4
+  },
+  "loop": {
+   "runs": 5,
+   "errors": 0,
+   "first_draft_clean": 4,
+   "final_clean": 5,
+   "avg_llm_calls": 1.2,
+   "avg_tokens": 423,
+   "avg_seconds": 7.2
+  },
+  "graph": {
+   "runs": 5,
+   "errors": 0,
+   "first_draft_clean": 5,
+   "final_clean": 5,
+   "avg_llm_calls": 3.8,
+   "avg_tokens": 2018,
+   "avg_seconds": 20.3
+  },
+  "crew": {
+   "runs": 5,
+   "errors": 0,
+   "first_draft_clean": 2,
+   "final_clean": 5,
+   "avg_llm_calls": 18.6,
+   "avg_tokens": 9884,
+   "avg_seconds": 11.0
+  },
+  "local": {
+   "runs": 5,
+   "errors": 0,
+   "first_draft_clean": 1,
+   "final_clean": 1,
+   "avg_llm_calls": 2.6,
+   "avg_tokens": 0,
+   "avg_seconds": 18.0
+  }
+ }
+}

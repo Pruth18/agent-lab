@@ -1,0 +1,16 @@
+{
+  "_note": "A made-up candidate. No real person's data goes to any model in this project.",
+  "name": "Priya Sharma",
+  "facts": [
+    "Data Engineer with 4 years of experience in Python, SQL and PySpark.",
+    "Built PySpark pipelines processing 2 million daily orders from 6 source systems into a Delta Lake warehouse.",
+    "Reduced nightly batch runtime by 30% by repartitioning large tables and rewriting slow SQL joins.",
+    "Automated data quality checks in Python across 40 tables, catching schema drift before reports refreshed.",
+    "Modelled sales and inventory marts in SQL used by 3 analytics teams for weekly reporting.",
+    "Deployed Airflow DAGs for 12 scheduled jobs with failure alerts sent to the on-call channel.",
+    "Streamed sample order events through Kafka into a Python consumer running in Docker as a personal project.",
+    "Implemented a 3-stage lakehouse on sample retail data with schema evolution and time travel.",
+    "Worked with Azure Blob Storage and Azure Data Factory for ingestion.",
+    "Mentored 2 junior engineers on code review and Git workflows."
+  ]
+}
